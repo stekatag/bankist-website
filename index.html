@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css"/>
     <title>Bankist | When Banking meets Minimalist</title>
 
     <script
@@ -27,7 +28,8 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <img
+        <a href="#">
+          <img
           src="img/logo.png"
           alt="Bankist logo"
           class="nav__logo"
@@ -35,30 +37,31 @@
           designer="Stefan"
           data-version-number="3.0"
         />
-        <ul class="nav__links">
-          <li class="nav__item">
-            <a class="nav__link" 
-            href="#section--1">Features</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--2">Operations</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--3">Testimonials</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+        </a>
+        
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" 
+              href="#section--1">Features</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--2">Operations</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--3">Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--btn btn--show-modal" href="#"
               >Open account</a
-            >
-          </li>
-        </ul>
+              >
+            </li>
+          </ul>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
-
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
-
+      
       <div class="header__title">
         <h1>
           When
