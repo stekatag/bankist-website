@@ -188,4 +188,8 @@
   .slide  {
     height: 80rem;
   }
+
+  .operations__tab {
+    width: 85%;
+  }
 }
