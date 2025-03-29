@@ -6,4 +6,4 @@ The website was developed by following along [this JavaScript course](https://ww
 ## 👀 Check it out
 Take a look at the webpage - [Bankist Website](https://stekatag.github.io/bankist-website)
 
-© Copyright by Jonas Schmedtmann. Made for learning purposes only.
+© Copyright by Jonas Schmedtmann. Made for learning purposes only!
